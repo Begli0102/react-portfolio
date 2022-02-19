@@ -1,0 +1,45 @@
+.social{
+  margin-top: 300px;
+  display: flex;
+  /* bottom: 60px; */
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  height: 80px;
+  width: 100%;
+  background-color: #303333;
+  }
+
+  .social-items{
+    width: 96%;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    padding: 30px;
+    
+  }
+  
+  .social i{
+  font-size: 25px;
+  color: #2673c0;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+  
+  }
+  .social i:hover{
+  color:aqua;
+  }
+
+  @media screen and (max-width: 960px) {
+    .social{
+      bottom: 0;
+      height: 50px;
+    }
+    .social-items{
+      padding: 15px;
+    }
+    .social i{
+      font-size: 20px;
+    }
+  }

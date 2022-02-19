@@ -1,0 +1,34 @@
+.tech-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+text-align: center;
+max-width: 1700px;
+justify-content: center;
+align-items: center;
+
+}
+.tech-container h1{
+  font-weight: 700;
+  font-size: 3rem;
+  font-family:Arial, Helvetica, sans-serif;
+letter-spacing: .5rem;
+text-transform: uppercase;
+margin-bottom: 50px;
+}
+
+.tech-container h1 span{
+  color: crimson;
+}
+
+.tech-items{
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.tech-items .logos{
+  width: 8rem;
+  
+  margin-left: 50px;
+}

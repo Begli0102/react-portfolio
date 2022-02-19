@@ -1,0 +1,122 @@
+/* About me */
+
+#about .about{
+  width: 1350px;
+  display: flex;
+  flex-direction: column;  
+  padding: 50px 20px;
+  margin: -50px auto;
+  text-align: center;
+  /* background-color: rgb(240, 233, 233); */
+
+}
+#about .col-right{
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.col-left{
+  height:auto;
+  margin-top: 50px;
+  max-width:100%;
+}
+
+
+.title{
+text-transform: uppercase;
+font-size: 3rem;
+margin: 10px auto;
+font-weight: 700;
+}
+
+.title span{
+  color: crimson;
+}
+
+#about .col-right h3{
+  letter-spacing: .2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  
+}
+
+#about .col-right p{
+  margin:20px auto;
+  letter-spacing: .2rem;
+  width: 70rem;
+  text-align: left;
+  clear: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#about .about-btn{
+  display: inline-block;
+  padding: 10px 30px;
+  background-color:transparent;
+  color: crimson;
+  text-decoration: underline;
+  border: 2px solid crimson;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin:50px  30px;
+  transition: .2s ease;
+  transition: backfround-color, color;
+  text-decoration: none;
+  width: 300px;
+
+}
+
+#about .about-btn:hover{
+  color: rgb(17, 16, 16);
+  background-color: crimson;
+}
+
+.typingeffect{
+  font-size: 3rem;
+  color: crimson;
+  letter-spacing: .5rem;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 100%;
+  
+}
+
+.img{
+  width: 200px;
+  height: 200px;
+  /* margin-top: 0px; */
+}
+/* End of About me */
+
+@media screen and (max-width: 960px) {
+  #about .about{
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    padding: 20px 10px;
+    min-height: 100vh;
+  }
+  .typingeffect{
+    font-size: 1rem;
+  }
+  #about .col-right p{
+    margin:50px auto;
+    width: 90%;
+    text-align: left;
+    clear: left;
+  }
+}
