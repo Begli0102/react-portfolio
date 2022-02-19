@@ -2,7 +2,6 @@ import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Social from "../Social/Social";
 import "./About.css";
-//importing the picture as "image"
 
 import image from "../../images/avatar2.jpg";
 import Tech from "../Tech/Tech";

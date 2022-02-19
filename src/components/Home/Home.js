@@ -2,8 +2,6 @@ import React from "react";
 // import ReactTypingEffect from 'react-typing-effect';
 import "./Home.css";
 
-// import img from './images/5.jpg';
-
 const Home = () => {
   return (
     <section id="intro">
