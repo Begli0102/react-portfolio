@@ -7,6 +7,8 @@ import random from "../../images/random-images.png";
 import mainView from "../../images/main-view.png";
 import parfumes from "../../images/parfumes.png";
 import meetapp from "../../images/meetapp.png";
+import chatapp from "../../images/10.png";
+import chatappVideo from "../../images/chatapp-video.MP4";
 
 const Projects = () => {
   return (
@@ -107,6 +109,29 @@ const Projects = () => {
               </a>
 
               <a href="https://github.com/Begli0102/random-images">
+                <button>Code</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="project-items">
+            <div className="project-info">
+              <h1>Chat app</h1>
+              <p>
+                A chat app for mobile devices built with React-Native. It
+                provides users with a chat interface where they can send/receive
+                text messages and images as well as share their location.
+              </p>
+            </div>
+            <div className="project-img">
+              <img src={chatapp} width="500px" height="300px" alt="alt" />
+            </div>
+            <div className="details">
+              <a href={chatappVideo}>
+                <button>Live</button>
+              </a>
+
+              <a href="https://github.com/Begli0102/Chatapp">
                 <button>Code</button>
               </a>
             </div>
