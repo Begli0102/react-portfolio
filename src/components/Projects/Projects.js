@@ -9,6 +9,8 @@ import parfumes from "../../images/parfumes.png";
 import meetapp from "../../images/meetapp.png";
 import chatapp from "../../images/10.png";
 import chatappVideo from "../../images/chatapp-video.MP4";
+import words from "../../images/words.png";
+
 
 const Projects = () => {
   return (
@@ -92,23 +94,24 @@ const Projects = () => {
 
           <div className="project-items">
             <div className="project-info">
-              <h1>Random-images</h1>
+              <h1>Word typing game</h1>
               <p>
-                It is an app created with React. In this app a user can add a
-                photo by clicking Add button. The photos are added randomly from
-                Unsplash.com. A user can remove the photo by clicking Remove
-                button. It will remove the last photo.
+                It is an application built with React. In this app a user can
+                type as many words as he/she can in 30 seconds. Each typed word
+                is counted and is placed in a corresponding place. When the time
+                is up, the user can see the correct and misspelled words in the
+                sidebar.
               </p>
             </div>
             <div className="project-img">
-              <img src={random} width="500px" height="300px" alt="alt" />
+              <img src={words} width="500px" height="300px" alt="alt" />
             </div>
             <div className="details">
-              <a href="https://begli0102.github.io/random-images/">
+              <a href="https://randomwordgame.netlify.app/">
                 <button>Live</button>
               </a>
 
-              <a href="https://github.com/Begli0102/random-images">
+              <a href="https://github.com/Begli0102/wordGame">
                 <button>Code</button>
               </a>
             </div>
