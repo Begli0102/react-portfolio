@@ -6,11 +6,10 @@ import "./Projects.css";
 import random from "../../images/random-images.png";
 import mainView from "../../images/main-view.png";
 import parfumes from "../../images/parfumes.png";
-import meetapp from "../../images/meetapp.png";
+import image from "../../images/image.png";
 import chatapp from "../../images/10.png";
 import chatappVideo from "../../images/chatapp-video.MP4";
 import words from "../../images/words.png";
-
 
 const Projects = () => {
   return (
@@ -70,23 +69,23 @@ const Projects = () => {
 
           <div className="project-items">
             <div className="project-info">
-              <h1>Meet app</h1>
+              <h1>Image app</h1>
               <p>
-                Meet app is an application which allows user to search for a
-                city and get a list of events hosted in that city. The user can
-                view charts that display how many events will take place in that
-                city on upcoming days as well as view the popularity of event
-                genres in the form of a pie chart.
+                Image app is an application which allows users to search for an
+                image and get a list of images related to the search. The user
+                can view information (number of views, downloads, likes
+                etc)about those images. All the informations are fetched from
+                pixabay API
               </p>
             </div>
             <div className="project-img">
-              <img src={meetapp} width="500px" height="300px" alt="alt" />
+              <img src={image} width="500px" height="300px" alt="alt" />
             </div>
             <div className="details">
-              <a href="https://begli0102.github.io/meet-app/">
+              <a href="imageeapp.netlify.app">
                 <button>Live</button>
               </a>
-              <a href="https://github.com/Begli0102/meet-app">
+              <a href="https://github.com/Begli0102/image-app">
                 <button>Code</button>
               </a>
             </div>
