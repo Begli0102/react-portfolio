@@ -58,7 +58,7 @@ const Projects = () => {
               <img src={parfumes} width='500px' height='300px' alt='alt' />
             </div>
             <div className='details'>
-              <a href='https://bkperfumes.netlify.app/#/'>
+              <a href='https://bkperfumes.netlify.app'>
                 <button>Live</button>
               </a>
               <a href='https://github.com/Begli0102/bk-parfumes'>
