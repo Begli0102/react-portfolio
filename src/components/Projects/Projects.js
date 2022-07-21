@@ -1,28 +1,28 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 // import ReactTypingEffect from 'react-typing-effect';
-import "./Projects.css";
+import './Projects.css'
 
-import random from "../../images/random-images.png";
-import mainView from "../../images/main-view.png";
-import parfumes from "../../images/parfumes.png";
-import image from "../../images/image.png";
-import chatapp from "../../images/10.png";
-import chatappVideo from "../../images/chatapp-video.MP4";
-import words from "../../images/words.png";
+import random from '../../images/random-images.png'
+import mainView from '../../images/main-view.png'
+import parfumes from '../../images/parfumes.png'
+import image from '../../images/image.png'
+import chatapp from '../../images/10.png'
+import chatappVideo from '../../images/chatapp-video.MP4'
+import words from '../../images/words.png'
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <div className="projects container">
-        <div className="project-header">
-          <h1 className="section-title">
-            Resent <span>Projects</span>{" "}
+    <section id='projects'>
+      <div className='projects container'>
+        <div className='project-header'>
+          <h1 className='section-title'>
+            Resent <span>Projects</span>{' '}
           </h1>
         </div>
-        <div className="all-projects">
-          <div className="project-items">
-            <div className="project-info">
+        <div className='all-projects'>
+          <div className='project-items'>
+            <div className='project-info'>
               <h1>MyFlix (React)</h1>
               <p>
                 MyFlix is a full-stack MERN application. In this application
@@ -31,21 +31,21 @@ const Projects = () => {
                 them and update their account information.
               </p>
             </div>
-            <div className="project-img">
-              <img src={mainView} width="500px" height="300px" alt="alt" />
+            <div className='project-img'>
+              <img src={mainView} width='500px' height='300px' alt='alt' />
             </div>
-            <div className="details">
-              <a href="https://myflix1.netlify.app/">
+            <div className='details'>
+              <a href='https://myflix1.netlify.app/'>
                 <button>Live</button>
               </a>
-              <a href="https://github.com/Begli0102/myFlix-client">
+              <a href='https://github.com/Begli0102/myFlix-client'>
                 <button>Code</button>
               </a>
             </div>
           </div>
 
-          <div className="project-items">
-            <div className="project-info">
+          <div className='project-items'>
+            <div className='project-info'>
               <h1>BK-parfumes</h1>
               <p>
                 BK-parfumes is a full-stack e-commerce application, built with
@@ -54,21 +54,21 @@ const Projects = () => {
                 them.
               </p>
             </div>
-            <div className="project-img">
-              <img src={parfumes} width="500px" height="300px" alt="alt" />
+            <div className='project-img'>
+              <img src={parfumes} width='500px' height='300px' alt='alt' />
             </div>
-            <div className="details">
-              <a href="https://bkparfumes.netlify.app/">
+            <div className='details'>
+              <a href='https://bkperfumes.netlify.app/#/'>
                 <button>Live</button>
               </a>
-              <a href="https://github.com/Begli0102/bk-parfumes">
+              <a href='https://github.com/Begli0102/bk-parfumes'>
                 <button>Code</button>
               </a>
             </div>
           </div>
 
-          <div className="project-items">
-            <div className="project-info">
+          <div className='project-items'>
+            <div className='project-info'>
               <h1>Image app</h1>
               <p>
                 Image app is an application which allows users to search for an
@@ -78,21 +78,21 @@ const Projects = () => {
                 pixabay API
               </p>
             </div>
-            <div className="project-img">
-              <img src={image} width="500px" height="300px" alt="alt" />
+            <div className='project-img'>
+              <img src={image} width='500px' height='300px' alt='alt' />
             </div>
-            <div className="details">
-              <a href="imageeapp.netlify.app">
+            <div className='details'>
+              <a href='imageeapp.netlify.app'>
                 <button>Live</button>
               </a>
-              <a href="https://github.com/Begli0102/image-app">
+              <a href='https://github.com/Begli0102/image-app'>
                 <button>Code</button>
               </a>
             </div>
           </div>
 
-          <div className="project-items">
-            <div className="project-info">
+          <div className='project-items'>
+            <div className='project-info'>
               <h1>Word typing game</h1>
               <p>
                 It is an application built with React. In this app a user can
@@ -102,22 +102,22 @@ const Projects = () => {
                 sidebar.
               </p>
             </div>
-            <div className="project-img">
-              <img src={words} width="500px" height="300px" alt="alt" />
+            <div className='project-img'>
+              <img src={words} width='500px' height='300px' alt='alt' />
             </div>
-            <div className="details">
-              <a href="https://randomwordgame.netlify.app/">
+            <div className='details'>
+              <a href='https://randomwordgame.netlify.app/'>
                 <button>Live</button>
               </a>
 
-              <a href="https://github.com/Begli0102/wordGame">
+              <a href='https://github.com/Begli0102/wordGame'>
                 <button>Code</button>
               </a>
             </div>
           </div>
 
-          <div className="project-items">
-            <div className="project-info">
+          <div className='project-items'>
+            <div className='project-info'>
               <h1>Chat app</h1>
               <p>
                 A chat app for mobile devices built with React-Native. It
@@ -125,15 +125,15 @@ const Projects = () => {
                 text messages and images as well as share their location.
               </p>
             </div>
-            <div className="project-img">
-              <img src={chatapp} width="500px" height="300px" alt="alt" />
+            <div className='project-img'>
+              <img src={chatapp} width='500px' height='300px' alt='alt' />
             </div>
-            <div className="details">
+            <div className='details'>
               <a href={chatappVideo}>
                 <button>Live</button>
               </a>
 
-              <a href="https://github.com/Begli0102/Chatapp">
+              <a href='https://github.com/Begli0102/Chatapp'>
                 <button>Code</button>
               </a>
             </div>
@@ -141,7 +141,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
