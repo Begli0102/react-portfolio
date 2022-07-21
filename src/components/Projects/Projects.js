@@ -82,7 +82,7 @@ const Projects = () => {
               <img src={image} width='500px' height='300px' alt='alt' />
             </div>
             <div className='details'>
-              <a href='imageeapp.netlify.app'>
+              <a href='https://imageeapp.netlify.app'>
                 <button>Live</button>
               </a>
               <a href='https://github.com/Begli0102/image-app'>
