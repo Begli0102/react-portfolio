@@ -1,45 +1,45 @@
-.social{
-  margin-top: 300px;
+.social {
+  margin-top: 100px;
   display: flex;
   /* bottom: 60px; */
   display: flex;
   flex-direction: row;
+  align-items: center;
   flex-grow: 1;
-  height: 80px;
+  height: 100px;
   width: 100%;
   background-color: #303333;
-  }
+}
 
-  .social-items{
-    width: 96%;
-    display: flex;
-    flex-direction:row ;
-    justify-content: center;
-    padding: 30px;
-    
-  }
-  
-  .social i{
+.social-items {
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.social i {
   font-size: 25px;
   color: #2673c0;
   align-items: center;
   text-align: center;
   margin-right: 10px;
-  
-  }
-  .social i:hover{
-  color:aqua;
-  }
+}
+.social i:hover {
+  color: aqua;
+}
 
-  @media screen and (max-width: 960px) {
-    .social{
-      bottom: 0;
-      height: 50px;
-    }
-    .social-items{
-      padding: 15px;
-    }
-    .social i{
-      font-size: 20px;
-    }
+@media screen and (max-width: 960px) {
+  .social {
+    bottom: 0;
+    height: 60px;
+    margin-top: 30px;
   }
+  .social-items {
+    padding: 15px;
+  }
+  .social i {
+    font-size: 20px;
+  }
+}

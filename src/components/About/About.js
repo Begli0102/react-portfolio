@@ -1,44 +1,42 @@
-import React from "react";
-import ReactTypingEffect from "react-typing-effect";
-import Social from "../Social/Social";
-import "./About.css";
+import React from 'react'
+import ReactTypingEffect from 'react-typing-effect'
+import Social from '../Social/Social'
+import './About.css'
 
-import image from "../../images/avatar2.jpg";
-import Tech from "../Tech/Tech";
+import image from '../../images/avatar2.jpg'
+import Tech from '../Tech/Tech'
 
 const About = () => {
   return (
-    <section id="about">
-      <div className="about container">
-        <div className="col-left">
-          <div className="image">
-            <img
-              src={image}
-              className="float-start"
-              width="200px"
-              height="200px"
-              alt=""
-            />
-          </div>
+    <section id='about'>
+      <div className='about container'>
+        <div className='col-left'>
+          <img
+            src={image}
+            className='float-start'
+            width='200px'
+            height='200px'
+            alt=''
+          />
         </div>
-        <div className="col-right">
-          <h1 className="title">
+        <div className='col-right'>
+          <h1 className='title'>
             About <span>me</span>
           </h1>
 
           <div>
             <ReactTypingEffect
-              className="typingeffect"
+              className='typingeffect'
               text={[
-                "I am Begli Kakabalov",
-                "I am a passionate Frontend developer",
+                'I am Begli Kakabalov',
+                'I am a passionate Frontend developer'
               ]}
               speed={100}
               eraseDelay={700}
             />
           </div>
           <p>
-            {" "}
+            {' '}
             I am a Frontend Developer and former entrepreneur with a teaching
             background. I have always been interested in web applications, how
             to build how to run them, how to write a code. One youtube video
@@ -56,7 +54,7 @@ const About = () => {
           </p>
 
           <p>
-            {" "}
+            {' '}
             My eagerness for continuous learning makes me a better Frontend
             Developer. After work, I used to learn methodology on how to gain a
             maximum result from each subject. With this mindset, I would like to
@@ -66,10 +64,10 @@ const About = () => {
           </p>
 
           <a
-            href="../../images/resume.pdf"
-            target="blank"
-            className="about-btn"
-            value="download"
+            href='../../images/resume.pdf'
+            target='blank'
+            className='about-btn'
+            value='download'
           >
             Download Resume
           </a>
@@ -78,7 +76,7 @@ const About = () => {
       <Tech />
       <Social />
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

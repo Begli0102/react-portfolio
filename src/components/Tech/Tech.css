@@ -1,34 +1,56 @@
-.tech-container{
+.tech-container {
   display: flex;
   flex-direction: column;
   width: 100%;
-text-align: center;
-max-width: 1700px;
-justify-content: center;
-align-items: center;
-
+  text-align: center;
+  max-width: 1700px;
+  justify-content: center;
+  align-items: center;
 }
-.tech-container h1{
+.tech-container h1 {
   font-weight: 700;
   font-size: 3rem;
-  font-family:Arial, Helvetica, sans-serif;
-letter-spacing: .5rem;
-text-transform: uppercase;
-margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
-.tech-container h1 span{
+.tech-container h1 span {
   color: crimson;
 }
 
-.tech-items{
+.tech-items {
   flex-direction: column;
   width: 100%;
-  
 }
 
-.tech-items .logos{
-  width: 8rem;
-  
+.tech-items .logos {
+  width: 6rem;
+  height: 6rem;
   margin-left: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .tech-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .tech-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .tech-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .tech-items .logos {
+    width: 5rem;
+    height: 5rem;
+  }
 }
