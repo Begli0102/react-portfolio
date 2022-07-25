@@ -32,7 +32,13 @@ const Projects = () => {
               </p>
             </div>
             <div className='project-img'>
-              <img src={mainView} width='500px' height='300px' alt='alt' />
+              <img
+                className='image_project'
+                src={mainView}
+                width='500px'
+                height='300px'
+                alt='alt'
+              />
             </div>
             <div className='details'>
               <a href='https://myflix1.netlify.app/'>
@@ -55,7 +61,13 @@ const Projects = () => {
               </p>
             </div>
             <div className='project-img'>
-              <img src={parfumes} width='500px' height='300px' alt='alt' />
+              <img
+                className='image_project'
+                src={parfumes}
+                width='500px'
+                height='300px'
+                alt='alt'
+              />
             </div>
             <div className='details'>
               <a href='https://bkperfumes.netlify.app'>
@@ -79,7 +91,13 @@ const Projects = () => {
               </p>
             </div>
             <div className='project-img'>
-              <img src={image} width='500px' height='300px' alt='alt' />
+              <img
+                className='image_project'
+                src={image}
+                width='500px'
+                height='300px'
+                alt='alt'
+              />
             </div>
             <div className='details'>
               <a href='https://imageeapp.netlify.app'>
@@ -103,7 +121,13 @@ const Projects = () => {
               </p>
             </div>
             <div className='project-img'>
-              <img src={words} width='500px' height='300px' alt='alt' />
+              <img
+                className='image_project'
+                src={words}
+                width='500px'
+                height='300px'
+                alt='alt'
+              />
             </div>
             <div className='details'>
               <a href='https://randomwordgame.netlify.app/'>
@@ -126,7 +150,13 @@ const Projects = () => {
               </p>
             </div>
             <div className='project-img'>
-              <img src={chatapp} width='500px' height='300px' alt='alt' />
+              <img
+                className='image_project'
+                src={chatapp}
+                width='500px'
+                height='300px'
+                alt='alt'
+              />
             </div>
             <div className='details'>
               <a href={chatappVideo}>
