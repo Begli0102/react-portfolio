@@ -140,14 +140,13 @@ const Projects = () => {
 
           <div className='project-items'>
             <div className='project-info'>
-              <h1>Chat app</h1>
+              <h1>Url Shortener</h1>
               <p>
                 A URL shortening web app was built using JavaScript and React,
-                integrate with the [shrtcode API](https://app.shrtco.de/docs).
-                URL shortening is a technique on the Web in which URL may be
-                made substantially shorter and still direct to the required
-                page. This is achieved by using a redirect that links to the web
-                page that has a long URL.
+                integrate with the shrtcode API. URL shortening is a technique
+                on the Web in which URL may be made substantially shorter and
+                still direct to the required page. This is achieved by using a
+                redirect that links to the web page that has a long URL.
               </p>
             </div>
             <div className='project-img'>
