@@ -20,7 +20,7 @@
 }
 
 .nav-logo {
-  color: #f5b921;
+  color: #2d2207;
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
@@ -28,6 +28,7 @@
   font-size: 2rem;
   flex-grow: 1;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .nav-menu {
@@ -97,7 +98,7 @@
     z-index: 1;
   }
   .nav-item .active {
-    color: #ffdd40;
+    color: #5c4c06;
     border: none;
   }
   .nav-links {
@@ -114,6 +115,6 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: #453c13;
   }
 }

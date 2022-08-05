@@ -3,12 +3,10 @@ import { Link } from 'react-router-dom'
 // import ReactTypingEffect from 'react-typing-effect';
 import './Projects.css'
 
-import random from '../../images/random-images.png'
+import urlshortener from '../../images/urlshortener.png'
 import mainView from '../../images/main-view.png'
 import parfumes from '../../images/parfumes.png'
 import image from '../../images/image.png'
-import chatapp from '../../images/10.png'
-import chatappVideo from '../../images/chatapp-video.MP4'
 import words from '../../images/words.png'
 
 const Projects = () => {
@@ -144,26 +142,29 @@ const Projects = () => {
             <div className='project-info'>
               <h1>Chat app</h1>
               <p>
-                A chat app for mobile devices built with React-Native. It
-                provides users with a chat interface where they can send/receive
-                text messages and images as well as share their location.
+                A URL shortening web app was built using JavaScript and React,
+                integrate with the [shrtcode API](https://app.shrtco.de/docs).
+                URL shortening is a technique on the Web in which URL may be
+                made substantially shorter and still direct to the required
+                page. This is achieved by using a redirect that links to the web
+                page that has a long URL.
               </p>
             </div>
             <div className='project-img'>
               <img
                 className='image_project'
-                src={chatapp}
+                src={urlshortener}
                 width='500px'
                 height='300px'
                 alt='alt'
               />
             </div>
             <div className='details'>
-              <a href={chatappVideo}>
+              <a href='https://url-shortener11.netlify.app/'>
                 <button>Live</button>
               </a>
 
-              <a href='https://github.com/Begli0102/Chatapp'>
+              <a href='https://github.com/Begli0102/URLshortener'>
                 <button>Code</button>
               </a>
             </div>
